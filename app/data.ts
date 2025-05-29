@@ -29,23 +29,21 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
-    id: 'project1',
+    name: 'Stability Testing – Bristol Myers Squibb',
+    description: 'Improved data consistency by 40% using fuzzy matching and Llama 3 model-based refinement for attribute alignment across 7,000+ records.',
+    link: '#', // 可填 Notion / GitHub / PDF link
+    video: '', // 暫無影片可留空
+    id: 'project-bms',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
+    name: 'Influenza Vaccine Usage Prediction',
+    description: 'Led a CDC team to forecast vaccine usage with 98% accuracy using XGBoost, SVM, ARIMA; awarded "Best Analysis" and "Proposal Excellence".',
+    link: '#',
+    video: '',
+    id: 'project-flu',
   },
 ]
+
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
@@ -90,6 +88,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
 ]
 
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     title: 'Let ChatGPT Generate a Technical Question for Me – Day 1',
@@ -116,6 +115,7 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-4',
   },
 ]
+
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
