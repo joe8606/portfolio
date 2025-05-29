@@ -16,9 +16,7 @@ export function Header() {
           className="text-zinc-600 dark:text-zinc-500"
           delay={0.5}
         >
-          Healthcare • Logistics
-          Data Analyst • BI Developer • Data Scientist • Data Engineer
-          Python • R • SQL • Power BI • Excel • SAS
+          Healthcare • Logistics | Data Analyst • BI Developer • Data Scientist • Data Engineer | Python • R • SQL • Power BI • Excel • SAS
         </TextEffect>
       </div>
     </header>
